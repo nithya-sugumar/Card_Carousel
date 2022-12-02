@@ -9,11 +9,15 @@
     border-radius:120px;
     padding:0px;
    border: 2px solid #f0c2e1;
+   margin: 20px;
 }
 .custom_card_img_bg{
     background-color:#f0c2e1;
     border-radius: 100px 0px 0px 0px;
-   
+    -webkit-border-radius: 100px 0px 0px 0px;
+    -moz-border-radius: 100px 0px 0px 0px;
+    -ms-border-radius: 100px 0px 0px 0px;
+    -o-border-radius: 100px 0px 0px 0px;
 }
 
 #news-slider{
@@ -62,9 +66,11 @@ width: 300px;
 .owl-controls .owl-buttons .owl-prev {
     top: 48%;
     background-color: #d9c1d7f5;
+    left: 40px;
 }
 
 .owl-controls .owl-buttons .owl-next {
     top: 48%;
+    right: 43px;
     background-color: #d9c1d7f5;
 }
