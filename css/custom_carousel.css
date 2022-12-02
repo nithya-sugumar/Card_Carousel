@@ -1,0 +1,64 @@
+.custom_card_body{
+    text-align: center;
+}
+
+.custom_card{
+    width:230px;
+    height:420px;
+    border-radius:120px;
+    padding:0px;
+    background-color:#f0c2e1;
+}
+
+#news-slider{
+    margin-top: 80px;
+}
+
+.owl-controls .owl-buttons{
+    text-align:center;
+    margin-top:20px;
+}
+.owl-controls .owl-buttons .owl-prev{
+    background-color: #fbe8fa00;
+    position: absolute;
+    top:-13%;
+     left:15px;
+    padding: 0 5px 0 5px;
+    border-radius: 50px;
+    box-shadow: 3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-next{
+    background-color: #fbe8fa00;
+    position: absolute;
+    top:-13%;
+    right: 55px;
+    padding: 0 5px 0 5px;
+    border-radius: 50px;
+    box-shadow: -3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-prev:after,
+.owl-controls .owl-buttons .owl-next:after{
+    content:"\f104";
+    font-family: FontAwesome;
+    color: #333;
+    font-size:30px;
+}
+.owl-controls .owl-buttons .owl-next:after{
+    content:"\f105";
+}
+
+.owl-item {
+width: 300px;
+}
+
+.owl-controls .owl-buttons .owl-prev {
+    top: 48%;
+    background-color: #d9c1d7f5;
+}
+
+.owl-controls .owl-buttons .owl-next {
+    top: 48%;
+    background-color: #d9c1d7f5;
+}
